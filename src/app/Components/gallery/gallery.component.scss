@@ -1,0 +1,106 @@
+.gallery-outer {
+    padding: 0px;
+    text-align: center;
+
+    #parallax-world-of-ugg .parallax-two {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
+        background-attachment: fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+
+        h2 {
+            font-size: 27px;
+            font-weight: 600;
+            line-height: 1.5;
+            color: white;
+            // padding-bottom: 60px;
+            font-family: "Nunito Sans", Arial, sans-serif;
+        }
+    }
+
+    .gallery {
+        padding-top: 50px;
+
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.5;
+            color: rgba(0, 0, 0, 0.8);
+            padding-bottom: 25px;
+            padding-top: 60px;
+        }
+
+        .card-one {
+            text-align: justify;
+
+            img {
+                width: 100%;
+                height: 270px;
+            }
+
+            label {
+                font-family: "Nunito Sans", Arial, sans-serif;
+                background: #fff;
+                line-height: 1.8;
+                font-weight: 400;
+                color: #b3b3b3;
+                font-size: 14px;
+                cursor: pointer;
+                padding: 0px 10px;
+
+                mat-icon{
+                    color: #b3b3b3;
+                    padding-top: 10px;
+                    font-size: medium;
+                    // font-size: 15px;
+                }   
+
+            }
+            label:hover{
+                color: #666666;
+            }
+
+            h4 {
+                // color: #000000;
+                font-size: 18px;
+                // margin-bottom: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                color: rgba(0, 0, 0, 0.9);
+                cursor: pointer;
+                padding: 0px 10px;
+            }
+            h4:hover{
+                color: #1162fb;
+            }
+
+            p {
+                font-family: "Nunito Sans", Arial, sans-serif;
+                background: #fff;
+                font-size: 14px;
+                line-height: 1.8;
+                font-weight: 400;
+                color: #666666;
+                padding: 0px 10px;
+                // text-align: justify;
+                // text-justify: inter-word;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .gallery {
+        padding: 0em 150px 0em 150px;
+    }
+
+}

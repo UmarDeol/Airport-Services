@@ -1,0 +1,89 @@
+.carousel {
+    text-align: center;
+    padding: 0 15px;
+    width: 100%;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.8);
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+
+    .cards-wrapper {
+        display: flex;
+        // justify-content: center;
+        text-align: center;
+    }
+
+    .cards {
+        img {
+            height: 130px;
+            width: 130px;
+            border-top: 10px solid #1162fb;
+            border-left: 10px solid #1162fb;
+            border-bottom: 10px solid #1162fb;
+        }
+
+        p {
+            font-family: "Nunito Sans", Arial, sans-serif;
+            background: #fff;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 400;
+            color: #666666;
+        }
+
+        .p2 {
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-size: 17px;
+            margin-bottom: 0;
+            color: #1162fb;
+        }
+    }
+
+    .carousel-inner {
+        padding: 1em;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: #e1e1e1;
+        width: 5vh;
+        height: 5vh;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+    .indicator{
+        padding-top: 30px;
+        .carousel-indicators li {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #1162fb;
+          }
+    }
+
+    @media (min-width: 768px) {
+        .card img {
+            height: 11em;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .carousel {
+        padding: 0 150px;
+    }
+
+}

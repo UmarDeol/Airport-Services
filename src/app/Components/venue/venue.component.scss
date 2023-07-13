@@ -1,0 +1,39 @@
+.venue-outer{
+    background-color: #1162fb;
+    padding: 5em 0 7em 0;
+    text-align: center;
+        width: 100%;
+        h2{
+            color: white;
+            padding-bottom: 1em;
+            text-align: center;
+        }
+    .venue{
+        text-align: center;
+        // width: 100%;
+        mat-icon{
+            height: auto;
+            width: auto;
+        }
+        h6{
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+
+        }
+        p{
+            font-size: 13px;
+            color: white;
+            text-align: center;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .venue-outer {
+        padding: 5em 150px;
+    }
+
+}

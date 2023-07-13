@@ -1,0 +1,82 @@
+<div class="navigation-outer">
+    <div id="parallax-world-of-ugg">
+
+        <section>
+            <div class="navbar-outer">
+                <div [ngClass]="{'fixed-top': isNavbarFixed}">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03"
+                            [ngClass]="{'fixed-top': isNavbarFixed}">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" (click)="scrollToSection('navbar')">Home</a>
+                                    <!-- <a class="nav-link" (click)="scrollToSection('home')">Home <span
+                                            class="sr-only">(current)</span></a> -->
+                                </li>
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link" (click)="scrollToSection('about')">About <span
+                                        class="sr-only">(current)</span></a> -->
+                                    <a class="nav-link" (click)="scrollToSection('about')">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" (click)="scrollToSection('conference')">Schedule</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" (click)="scrollToSection('gallery')">Conference Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" (click)="scrollToSection('happyclients')">Happyclients</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" (click)="scrollToSection('reserve')">Reserve</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" (click)="scrollToSection('speakers')">Speakers</a>
+                                </li>
+                                
+
+
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn my-2 my-sm-0" id="search-btn" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="parallax-one">
+                <div class="cards" fxLayout="row" fxLayout.md="column" fxLayout.sm="column" fxLayout.xs="column"
+                    fxLayoutGap="20" fxLayoutAlign="space-between center" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="left-card" fxLayout="column" fxLayoutAlign="space-evenly start">
+                        <div>
+                            <p>Business Leaders</p>
+                        </div>
+                        <div>
+                            <h2>CONFERENCE 2023</h2>
+                        </div>
+                        <div><mat-icon>calendar_today</mat-icon><span>20-23 November 2019 - Los Angeles CA</span></div>
+                    </div>
+                    <div class="right-card">
+                        <div>
+                            <h3>Join Conference</h3>
+                        </div>
+                        <div> <input type="text" placeholder="Enter Your Name" /></div>
+                        <div> <input type="text" placeholder="Enter Your Email" /></div>
+                        <div> <input type="text" placeholder="Enter Your Phone" /></div>
+                        <div> <button>Join Now</button></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</div>

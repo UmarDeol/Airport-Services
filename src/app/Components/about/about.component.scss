@@ -1,0 +1,45 @@
+.about-outer {
+    padding: 0 0px;
+
+    .about {
+        width: 100%;
+
+        img {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 270px;
+            width: 100%;
+        }
+
+        .right-text {
+            // text-align: left;
+            text-align: center;
+            padding: 0 15px;
+
+            // width: 30%;
+            h2 {
+                font-size: 23px;
+                font-weight: bold;
+                color: #1162fb;
+            
+            }
+
+            p {
+                font-family: "Nunito Sans", Arial, sans-serif;
+                background: #fff;
+                font-size: 16px;
+                line-height: 1.8;
+                font-weight: 400;
+                color: #666666;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .about-outer {
+        padding: 0px 150px;
+    }
+
+}

@@ -1,0 +1,41 @@
+.clients-outer {
+  text-align: center;
+  padding: 0 15px;
+  width: 100%;
+
+  .clients {
+    h2 {
+      font-size: 40px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.8);
+      padding-bottom: 60px;
+      padding-top: 60px;
+    }
+
+    .cards {
+      img {
+        height: 130px;
+        width: 130px;
+        border-top: 10px solid #1162fb;
+        border-left: 10px solid #1162fb;
+        border-bottom: 10px solid #1162fb;
+      }
+
+      p {
+        font-family: "Nunito Sans", Arial, sans-serif;
+        background: #fff;
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 400;
+        color: #666666;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .clients-outer {
+    padding: 0 150px;
+  }
+
+}

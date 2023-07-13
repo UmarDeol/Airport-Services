@@ -1,0 +1,101 @@
+.navbar-outer {
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #002ead;
+        // padding: 15px 60px;
+        animation: fadeIn 1s;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+        .navbar {
+            background: #000000 !important;
+        }
+
+    }
+
+    .navbar {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        padding-top: 20px;
+        // padding-left: 150px;
+        // padding-right: 150px;
+
+
+        ul li a {
+            color: white;
+            cursor: pointer;
+        }
+
+        .dropdown-menu {
+            background-color: #1162fb;
+        }
+
+        .nav-item :hover {
+            color: #1162fb;
+            // background-color: #1162fb;
+            border-radius: 5px;
+        }
+        #search{
+            background-color: rgb(220, 220, 220);
+            color: #000000;
+        }
+        #search:focus{
+            background-color: rgb(239, 238, 238);
+        }
+
+        #search-btn {
+            background-color: #1162fb;
+            color: white;
+        }
+
+        #search-btn:hover {
+            background-color: #002ead;
+            transition: 0.7s;
+        }
+
+    }
+
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1162fb;
+  }
+
+.carousel-item {
+    img {
+        height: 754px;
+    }
+}
+
+mat-icon {
+    color: white;
+}
+
+mat-icon:hover {
+    color: #1162fb;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .navbar{
+        background-color: #000000;
+    }
+}
